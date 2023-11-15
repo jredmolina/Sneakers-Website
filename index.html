@@ -1,44 +1,145 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
-      <title>Responsive wacthes website - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         
-      </header>
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home">
-            
-         </section>
-      </main>
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
 
-      <!--=============== GSAP ===============-->
-      <script src=""></script>
+   <title>Sneakers</title>
+</head>
 
-      <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="" class="nav__logo">SNEAKERS</a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="" class="nav__link">HOME</a>
+               </li>
+               <li class="nav__item">
+                  <a href="" class="nav__link">ABOUT</a>
+               </li>
+               <li class="nav__item">
+                  <a href="" class="nav__link">FEATURED</a>
+               </li>
+               <li class="nav__item">
+                  <a href="" class="nav__link">NEW</a>
+               </li>
+            </ul>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+            <div class="nav__social">
+               <a href="https://www.facebook.com/" target="_blank" class="nav__social-link"><i
+                     class="ri-facebook-line"></i></a>
+               <a href="https://www.instagram.com/" target="_blank" class="nav__social-link"><i
+                     class="ri-instagram-line"></i></a>
+               <a href="https://twitter.com/" target="_blank" class="nav__social-link"><i
+                     class="ri-twitter-line"></i></a>
+            </div>
+
+            <!-- Close Button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-circle-line"></i>
+            </div>
+         </div>
+
+         <!-- Toggle Button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+         <div class="home__container container">
+            <div class="home__data">
+               <div class="home__content">
+                  <div class="home__stars">
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-fill"></i>
+                     <i class="ri-star-half-fill"></i>
+                  </div>
+
+                  <h1 class="home__title">Nike <br>
+                     Air Jordan <br>
+                     Sneakers</h1>
+
+                  <h3 class="home__price">$220</h3>
+
+               </div>
+               <a href="" class="home__button">
+                  ADD TO CART
+                  <i class="ri-arrow-right-s-line"></i>
+               </a>
+            </div>
+            <div class="home__images">
+               <div class="home__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="home__article swiper-slide">
+                        <img
+                           src="assets/img/kisspng-air-jordan-air-force-off-white-nike-sneakers-jordan-5b16e82f81f9d0.4816332515282278875324.png"
+                           alt="" class="home__img">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img
+                           src="assets/img/kisspng-air-jordan-1-x-off-white-nrg-aq-818-148-nike-off-w-5b9a6508150e42.6570326015368450640863.png"
+                           alt="" class="home__img">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img
+                           src="assets/img/kisspng-air-jordan-sneakers-shoe-cement-nike-michael-jordan-5acd3f89c34ac8.4698156215234005857999.png"
+                           alt="" class="home__img">
+                     </article>
+                  </div>
+               </div>
+
+               <div class="swiper-pagination">
+
+               </div>
+            </div>
+            <div class="home__info">
+               <img src="assets/img/Sneaker.png" alt="" class="home__info-img">
+               <div class="home__info-content">
+
+                  <p class="home__info-description">
+                     Stylish sneakers are not just footwear; they embody a testament to craftsmanship and dedication.
+                     Each pair is a product of collaborative ingenuity and a conscientious understanding of the wearer's
+                     needs.
+                  </p>
+
+                  <a href="" class="home__button-link">LEARN MORE</a>
+               </div>
+            </div>
+
+         </div>
+      </section>
+   </main>
+
+   <!--=============== GSAP ===============-->
+   <script src="assets/js/gsap.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="assets/js/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
 </html>
